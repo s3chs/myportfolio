@@ -1,17 +1,20 @@
 import React, { Component } from "react";
 import "../Styles/phil.css";
 import PhilCharacter from "../Images/phil.png";
+import PhilTitle from "../Images/philtypo.png";
 
 export default class PhilGame extends Component {
   render() {
     return (
       <div>
         <div className="background-phil">
-          <h1 className="section-title"> Philippe Buteau</h1>
+          <div className="phil-title-place">
+            <img src={PhilTitle} alt="title" className="phil-title" />
+          </div>
 
           <div className="ordered-content">
             <div className="floating">
-              <img src={PhilCharacter} alt="phil" />
+              <img className="my-avatar" src={PhilCharacter} alt="phil" />
             </div>
 
             <div className="skill-container">

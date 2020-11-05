@@ -13,12 +13,18 @@
 
 /* SECTION CONTENT INCLUDING THE TITLE, CHARACTER AND THE SKILL SET */
 
-.section-title {
+.phil-title {
   padding-top: 5%;
-  font-size: 35px;
-  font-family: "Press Start 2P", cursive;
-  align-content: center;
-  text-align: center;
+  max-height: 19vh;
+}
+
+.phil-title-place {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }
 
 .ordered-content {
@@ -32,16 +38,16 @@
 }
 
 .skill-container {
-  width: 90vh;
+  width: 70vh;
 }
 
 .skill-container h1 {
-  font-size: 30px;
+  font-size: 27px;
   color: black;
   font-family: "Press Start 2P", cursive;
 }
 
-img {
+.my-avatar {
   height: 55vh;
   filter: brightness(115%);
 }
