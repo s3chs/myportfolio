@@ -3,14 +3,14 @@
 /* GENERAL ABOUT CSS */
 .about-section {
   background-color: black;
-  width: 100%;
-  height: 85vh;
+  height: 100%;
   color: white;
+  padding-bottom: 50px;
 }
 /*  */
 
-/* TITLE FORMAT */
-.about-title {
+/* TITLE */
+.title {
   padding-top: 5%;
   font-family: "Press Start 2P", cursive;
   display: flex;
@@ -20,6 +20,10 @@
   align-items: center;
   align-content: stretch;
 }
+
+.phil-story-pic {
+  height: 15vh;
+} 
 /*  */
 
 /* ORDERED CONTENT */
@@ -55,10 +59,6 @@ margin-bottom: 3vh;
   max-width: 45vh;
   margin-bottom: 40px;
   }
-
-.phil-story-pic {
-  height: 15vh;
-}
 
 .centered-element {
   padding-top: 5vh;
