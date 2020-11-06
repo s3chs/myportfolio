@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={WelcomePage} />
-          <Route exact path="/portfolio" component={MainPage} />
+          <Route exact path="/myportfolio" component={MainPage} />
         </Switch>
       </BrowserRouter>
     </div>
