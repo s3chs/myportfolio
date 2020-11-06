@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Musica from "../Images/Musica.png";
 import RetroCulture from "../Images/Retroculture.png";
 import SafeSpace from "../Images/Safespace.png";
+import { Link } from "react-router-dom";
 
 import "../Styles/projects.css";
 
@@ -14,7 +15,9 @@ export default class Projects extends Component {
 
           <div className="project-container">
             <div>
-              <img className="project-pic" src={RetroCulture} alt="Musica" />
+            <a href="https://github.com/Joeyryanbridges">
+              <img className="project-pic" src={RetroCulture} alt="RetroCulture"/>
+              </a>
             </div>
 
             <div className="text-container">
@@ -30,7 +33,9 @@ export default class Projects extends Component {
 
           <div className="project-container">
             <div>
+            <a href="https://github.com/Joeyryanbridges">
               <img className="project-pic" src={SafeSpace} alt="Musica" />
+              </a>
             </div>
 
             <div className="text-container">
@@ -54,7 +59,9 @@ export default class Projects extends Component {
 
           <div className="project-container">
             <div>
+            <a href="https://github.com/Joeyryanbridges">
               <img className="project-pic" src={Musica} alt="Musica" />
+              </a>
             </div>
 
             <div className="text-container">

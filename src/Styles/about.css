@@ -3,9 +3,13 @@
 /* GENERAL ABOUT CSS */
 .about-section {
   background-color: black;
-  height: 100%;
+  background-image: url("../Images/aboutwall.jpg");
+  background-size: cover;
+  height: 105vh;
   color: white;
   padding-bottom: 50px;
+  border-bottom: 1px solid black;
+  animation: 70s para infinite linear;
 }
 /*  */
 
@@ -67,3 +71,12 @@ margin-bottom: 3vh;
   justify-content: center;
   align-content: center;
 }
+
+/* ANIMATED 8 BIT CITY BACKGROUND KEYFRAME */
+@keyframes para {
+  100% {
+    background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%,
+      400px 0;
+  }
+}
+/*  */

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../Styles/about.css";
-import PhilStory from "../Images/philstory.png";
-import Pr from "../Images/newspaper.png";
-import QuestionMark from "../Images/questionmark.png";
-import Star from "../Images/star.png";
+import PhilStory from "../Images/philstoryblue.png";
+import Pr from "../Images/newspaperblue.png";
+import QuestionMark from "../Images/questionmarkblue.png";
+import Star from "../Images/starblue.png";
 
 
 export default class About extends Component {

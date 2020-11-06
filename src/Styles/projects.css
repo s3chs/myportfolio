@@ -29,6 +29,8 @@
   justify-content: space-around;
   align-items: center;
   align-content: stretch;
+  background-image: url("../Images/nightwall.png");
+  background-size: contain;
 }
 
 .project-pic {
