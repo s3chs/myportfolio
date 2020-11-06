@@ -4,9 +4,11 @@ import "../Styles/header.css";
 function Header() {
   return (
     <div>
-      <div className="header-format">
-        <p className="header-text">Welcome to my portfolio</p>
-      </div>
+      <nav className="header-format">
+        <a href="#about" className="link">About</a>
+        <a href="#projects" className="link">Projects</a>
+        <a href="#contact" className="link">Contact</a>
+      </nav>
     </div>
   );
 }

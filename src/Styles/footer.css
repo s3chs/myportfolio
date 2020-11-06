@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+
+.footer {
+border-top: 1px solid white;
+padding-top: 10px;
+height: 18vh;
+background: black;
+}
+
+.ordered-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ordered-footer p {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+
+.ordered-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  margin: 0% 30% 0% 30%;
+}
+
+.ordered-icons img {
+  max-width: 6vw;
+}
+
+.heart-pic {
+  width: 2vw;
+}

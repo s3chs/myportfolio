@@ -9,7 +9,7 @@ import Star from "../Images/starblue.png";
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div id="about">
         <div className="about-section">
         <div className="centered-element">
           <h1 className="title">ABOUT ME</h1>

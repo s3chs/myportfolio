@@ -7,13 +7,13 @@ import "../Styles/projects.css";
 export default class Projects extends Component {
   render() {
     return (
-      <div>
+      <div id="projects">
         <div className="projects-section">
           <h1 className="title">PROJECTS</h1>
 
           <div className="project-container">
             <div>
-            <a href="https://github.com/Joeyryanbridges">
+            <a href="https://s3chs.github.io/Video-game-quizz/">
               <img className="project-pic" src={RetroCulture} alt="RetroCulture"/>
               </a>
             </div>
@@ -31,7 +31,7 @@ export default class Projects extends Component {
 
           <div className="project-container">
             <div>
-            <a href="https://github.com/Joeyryanbridges">
+            <a href="https://safe-space-ironhack.herokuapp.com/">
               <img className="project-pic" src={SafeSpace} alt="Musica" />
               </a>
             </div>
@@ -57,7 +57,7 @@ export default class Projects extends Component {
 
           <div className="project-container">
             <div>
-            <a href="https://github.com/Joeyryanbridges">
+            <a href="https://musicaih.herokuapp.com/">
               <img className="project-pic" src={Musica} alt="Musica" />
               </a>
             </div>
