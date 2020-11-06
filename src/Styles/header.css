@@ -11,22 +11,22 @@
   align-content: stretch;
   font-family: "Press Start 2P", cursive;
   background-color: black;
-}
-
-.link {
-  font-family: "Press Start 2P", cursive;
   text-decoration: none;
   color: white;
-  font-weight: bold;
 }
 
-a {
-  color: inherit;
+a.link {
+  color: white;
   text-decoration: none;
   letter-spacing: 0.15em;
   display: inline-block;
   padding: 15px 20px;
   position: relative;
+}
+
+a.link:hover {
+  color: white;
+  text-decoration: none;
 }
 
 a.link:after {
@@ -38,16 +38,15 @@ a.link:after {
   left: 50%;
   position: absolute;
   background: white;
-
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
   text-decoration: none;
-  color: inherit;
+  color: white;
 }
 
 a.link:hover:after {
   width: 100%;
   left: 0;
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
