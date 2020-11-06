@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.contact-info {
+  height: 80vh;
+  background-color: black;
+  color: white;
+}
+
+.emailadd {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+ margin: 0% 30% 0% 30%;
+}
+
+.social-icons img {
+max-width: 8vw;
+margin-top: 50px;
+}

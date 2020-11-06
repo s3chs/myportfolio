@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import Musica from "../Images/Musica.png";
 import RetroCulture from "../Images/Retroculture.png";
 import SafeSpace from "../Images/Safespace.png";
-import { Link } from "react-router-dom";
-
 import "../Styles/projects.css";
 
 export default class Projects extends Component {
