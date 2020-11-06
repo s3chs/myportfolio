@@ -5,6 +5,7 @@ export default class WelcomePage extends Component {
         return (
             <div>
                 <p>I'm the WelcomePage</p>
+                <h1>yooooooooo</h1>
             </div>
         )
     }
