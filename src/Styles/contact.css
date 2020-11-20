@@ -1,7 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+
+.contact-title {
+display: flex;
+justify-content: center;
+padding: 50px 0px 60px 0px ;
+}
+
+.contact-title img {
+ max-height: 15vh;
+  }
+
 .contact-info {
-  height: 75vh;
+  height: 85vh;
   background-color: black;
   color: white;
 }
@@ -16,6 +27,12 @@
   align-content: stretch;
 }
 
+a.emailadd {
+  
+color:inherit;
+text-decoration: none;
+}
+
 .social-icons {
   display: flex;
   flex-direction: row;
@@ -23,10 +40,131 @@
   justify-content: space-around;
   align-items: center;
   align-content: stretch;
- margin: 0% 30% 0% 30%;
+  margin: 0% 20% 0% 20%;
 }
 
 .social-icons img {
-max-width: 8vw;
-margin-top: 50px;
+  max-width: 5vw;
+  margin-top: 30px;
+}
+
+.moon {
+  width: 12%;
+  padding-top: 3vh;
+}
+
+.moon-centered {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch; 
+}
+
+@media screen and (max-width: 768px) {
+
+  .contact-info {
+    height: 85vh;
+    background-color: black;
+    color: white;
+  }
+  
+  .emailadd {
+    font-family: "Press Start 2P", cursive;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  .emailadd a {
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin: 0% 30% 0% 30%;
+  }
+  
+  .social-icons img {
+    max-width: 8vw;
+    margin-top: 50px;
+  }
+  
+  .moon {
+    width: 12%;
+    padding-top: 3vh;
+  }
+  
+  .moon-centered {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: stretch; 
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .contact-info {
+    height: 50vh;
+    background-color: black;
+    color: white;
+  }
+
+  .contact-title img {
+  max-height: ;
+  }
+  
+  .emailadd {
+    font-family: "Press Start 2P", cursive;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    font-size: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin: 0% 30% 0% 30%;
+  }
+  
+  .social-icons img {
+    max-width: 10vw;
+    margin-top: 50px;
+  }
+  
+  .moon {
+    width: 12%;
+    padding-top: 3vh;
+  }
+  
+  .moon-centered {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: stretch; 
+  }
+
 }

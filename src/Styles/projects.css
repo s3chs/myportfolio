@@ -3,9 +3,24 @@
 
 /* PROJECT GLOBAL FORMAT */
 
+.centered-pic {
+  padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+
+.centered-pic img {
+  height: 3.5vh;
+  
+}
+
 .projects-section {
   width: 100%;
-  height: 180vh;
+  height: 200vh;
   background-color: black;
   color: white;
   display: flex;
@@ -16,11 +31,16 @@
   align-content: stretch;
 }
 
+.btn-centered {
+  display: flex;
+  flex-direction: row;
+  }
+
 /* PROJECT CONTAINER ELEMENTS */
 
 .project-container {
-  border: 1px solid white;
-  border-radius: 0.5%;
+  /* border: 1px solid white;
+  border-radius: 30px; */
   width: 80vw;
   height: 50vh;
   display: flex;
@@ -31,6 +51,33 @@
   align-content: stretch;
   background-image: url("../Images/nightwall.png");
   background-size: contain;
+
+  box-shadow:
+    /* Inner Background Color -- Same as inner */ 0 -6px 0 -2px
+      var(--inner),
+    0 6px 0 -2px var(--inner), 0 -12px 0 -4px var(--inner),
+    0 12px 0 -4px var(--inner), 0 -18px 0 -8px var(--inner),
+    0 18px 0 -8px var(--inner), 0 -24px 0 -12px var(--inner),
+    0 24px 0 -12px var(--inner),
+    /* Middle Border -- Accent */ -4px 0 0 0 var(--accent),
+    4px 0 0 0 var(--accent), 0 -2px 0 2px var(--accent),
+    0 2px 0 2px var(--accent), 0 -8px 0 0px var(--accent),
+    0 8px 0 0px var(--accent), 0 -12px 0 -2px var(--accent),
+    0 12px 0 -2px var(--accent), 0 -16px 0 -4px var(--accent),
+    0 16px 0 -4px var(--accent), 0 -22px 0 -8px var(--accent),
+    0 22px 0 -8px var(--accent), 0 -28px 0 -12px var(--accent),
+    0 28px 0 -12px var(--accent), /* Outer Border */ -6px 0 0 0 var(--border),
+    6px 0 0 0 var(--border), 0 0 0 4px var(--border), 0 -6px 0 2px var(--border),
+    0 6px 0 2px var(--border), 0 -10px 0 0 var(--border),
+    0 10px 0 0 var(--border), 0 -14px 0 -2px var(--border),
+    0 14px 0 -2px var(--border), 0 -18px 0 -4px var(--border),
+    0 18px 0 -4px var(--border), 0 -24px 0 -8px var(--border),
+    0 24px 0 -8px var(--border), 0 -30px 0 -12px var(--border),
+    0 30px 0 -12px var(--border);
+}
+
+.project-container:hover {
+  transform: scale(1.05);
 }
 
 .project-pic {
@@ -42,10 +89,224 @@
   font-family: "Press Start 2P", cursive;
 }
 
+.project-container h3 {
+  font-family: "Press Start 2P", cursive;
+}
+
 .project-container p {
-  width: 30vw;
+  font-family: "Press Start 2P", cursive;
+  width: 35vw;
 }
 
 .project-container h4 {
-    width: 30vw;
+  font-family: "Press Start 2P", cursive;
+  width: 30vw;
+}
+
+@media screen and (max-width: 1350px) {
+  .project-pic {
+    max-height: 20vh;
+    border: 1px solid white;
   }
+
+  .project-container h2 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 15px;
+  }
+
+  .project-container p {
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+    width: 40vw;
+  }
+
+  .project-container h3 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 11px;
+  }
+
+  .project-container h4 {
+    font-family: "Press Start 2P", cursive;
+    width: 30vw;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .projects-section {
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  /* PROJECT CONTAINER ELEMENTS */
+
+  .project-container {
+    border-radius: 30px;
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    background-image: url("../Images/nightwall.png");
+    background-size: contain;
+    padding-bottom: 20px;
+  }
+
+  .project-pic {
+    max-height: 16vh;
+    border: 1px solid white;
+  }
+
+  .project-container h2 {
+    width: 80vw;
+    font-size: 13px;
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+  }
+
+  .project-container h3 {
+    font-size: 10px;
+    width: 80vw;
+    text-align: center;
+  }
+
+  .project-container p {
+    width: 80vw;
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    font-size: 10px;
+  }
+
+  .project-container h4 {
+    width: 80vw;
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+}
+
+.btn-centered * {
+  font-family: "Press Start 2P", cursive;
+}
+
+.btn-centered {
+display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+}
+
+@media screen and (max-width: 550px) {
+  .projects-section {
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  /* PROJECT CONTAINER ELEMENTS */
+
+  .project-container {
+    border-radius: 0.5%;
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    background-image: url("../Images/nightwall.png");
+    background-size: contain;
+    padding-bottom: 20px;
+  }
+
+  .project-pic {
+    display: none;
+    max-height: 13vh;
+    border: 1px solid white;
+  }
+
+  .project-container h2 {
+    width: 85vw;
+    font-size: 13px;
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+  }
+
+  .project-container h3 {
+    width: 85vw;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .project-container p {
+    width: 85vw;
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    font-size: 13px;
+  }
+
+  .project-container h4 {
+    width: 80vw;
+    font-size: 13px;
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+}
+
+/* //// PIXEL BORDERS */
+
+:root {
+  --inner: black;
+  --border: black;
+  --accent: white;
+}
+
+.pxl-border {
+  box-shadow:
+    /* Inner Background Color -- Same as inner */ 0 -6px 0 -2px
+      var(--inner),
+    0 6px 0 -2px var(--inner), 0 -12px 0 -4px var(--inner),
+    0 12px 0 -4px var(--inner), 0 -18px 0 -8px var(--inner),
+    0 18px 0 -8px var(--inner), 0 -24px 0 -12px var(--inner),
+    0 24px 0 -12px var(--inner),
+    /* Middle Border -- Accent */ -4px 0 0 0 var(--accent),
+    4px 0 0 0 var(--accent), 0 -2px 0 2px var(--accent),
+    0 2px 0 2px var(--accent), 0 -8px 0 0px var(--accent),
+    0 8px 0 0px var(--accent), 0 -12px 0 -2px var(--accent),
+    0 12px 0 -2px var(--accent), 0 -16px 0 -4px var(--accent),
+    0 16px 0 -4px var(--accent), 0 -22px 0 -8px var(--accent),
+    0 22px 0 -8px var(--accent), 0 -28px 0 -12px var(--accent),
+    0 28px 0 -12px var(--accent), /* Outer Border */ -6px 0 0 0 var(--border),
+    6px 0 0 0 var(--border), 0 0 0 4px var(--border), 0 -6px 0 2px var(--border),
+    0 6px 0 2px var(--border), 0 -10px 0 0 var(--border),
+    0 10px 0 0 var(--border), 0 -14px 0 -2px var(--border),
+    0 14px 0 -2px var(--border), 0 -18px 0 -4px var(--border),
+    0 18px 0 -4px var(--border), 0 -24px 0 -8px var(--border),
+    0 24px 0 -8px var(--border), 0 -30px 0 -12px var(--border),
+    0 30px 0 -12px var(--border);
+}

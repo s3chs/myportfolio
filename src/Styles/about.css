@@ -15,7 +15,7 @@
 
 /* TITLE */
 .title {
-  padding-top: 5%;
+  padding-top: 3%;
   font-family: "Press Start 2P", cursive;
   display: flex;
   flex-direction: row;
@@ -26,20 +26,25 @@
 }
 
 .phil-story-pic {
-  height: 15vh;
-} 
+  max-height: 23vh;
+  border-radius: 150px;
+}
+
+.philDiv {
+  display:flex;
+ justify-content: center;
+ margin:50px 0px 10px 0px;
+}
 /*  */
 
 /* ORDERED CONTENT */
 
 .ordered-about {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  align-content: stretch;
+  margin-top: 10px;
+  width: 100%;
 }
 
 .ordered-story {
@@ -51,18 +56,14 @@
   align-content: space-around;
   font-family: "Press Start 2P", cursive;
   text-align: center;
-  padding-top: 5vh;
-}
-
-.ordered-story img {
-max-height: 20vh;
-margin-bottom: 3vh;
+  padding-top: 3vh;
 }
 
 .ordered-story p {
-  max-width: 45vh;
-  margin-bottom: 40px;
-  }
+  font-size: 16px;
+  max-width: 60vw;
+  margin-bottom: 20px;
+}
 
 .centered-element {
   padding-top: 5vh;
@@ -80,3 +81,170 @@ margin-bottom: 3vh;
   }
 }
 /*  */
+
+@media screen and (max-width: 765px) {
+  /* GENERAL ABOUT CSS */
+
+  .about-pic {
+    height: 6vw ;
+  }
+
+  .about-section {
+    background-color: black;
+    background-image: url("../Images/aboutwall.jpg");
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    animation: 70s para infinite linear;
+  }
+  /*  */
+
+  /* TITLE */
+  .title {
+    padding-top: 3%;
+    font-family: "Press Start 2P", cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  .phil-story-pic {
+    max-height: 15vh;
+  }
+  /*  */
+
+  /* ORDERED CONTENT */
+
+  .ordered-about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    align-content: stretch;
+    width: 100%;
+  }
+
+  .ordered-story {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    padding-top: 3vh;
+  }
+
+  .ordered-story img {
+    max-height: 9vh;
+    margin-bottom: 3vh;
+  }
+
+  .ordered-story p {
+    max-width: 80vw;
+    font-size: 11px;
+  }
+
+  .centered-element {
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .about-section {
+    background-color: black;
+    background-image: url("../Images/aboutwall.jpg");
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    animation: 70s para infinite linear;
+  }
+
+  .about-pic {
+    height: 8vw ;
+  }
+  /*  */
+
+  /* TITLE */
+  .title {
+    padding-top: 3%;
+    font-family: "Press Start 2P", cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    font-size: 18px;
+  }
+
+  .phil-story-pic {
+    max-height: 9vh;
+  }
+
+
+.philDiv {
+  display:flex;
+ justify-content: center;
+ margin:20px 0px 10px 0px;
+}
+  /*  */
+
+  /* ORDERED CONTENT */
+
+  .ordered-about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    align-content: stretch;
+    width: 100%;
+  }
+
+  .ordered-story {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    padding-top: 3vh;
+  }
+
+  .ordered-story img {
+    max-height: 10vh;
+    margin-bottom: 3vh;
+    display: none;
+  }
+
+  .ordered-story p {
+    max-width: 80vw;
+    font-size: 10px;
+  }
+
+  .centered-element {
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+}

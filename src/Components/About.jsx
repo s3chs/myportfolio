@@ -1,30 +1,28 @@
 import React, { Component } from "react";
 import "../Styles/about.css";
-import PhilStory from "../Images/philstoryblue.png";
-import Pr from "../Images/newspaperblue.png";
-import QuestionMark from "../Images/questionmarkblue.png";
-import Star from "../Images/starblue.png";
-
+import PhilStory from "../Images/philprofil.jpg";
+import AboutPic from "../Images/about.png"
 
 export default class About extends Component {
   render() {
     return (
       <div id="about">
         <div className="about-section">
-        <div className="centered-element">
-          <h1 className="title">ABOUT ME</h1>
-          <img className="phil-story-pic"src={PhilStory} alt="phil8bit"/>
+          <div className="centered-element">
+            <img className="about-pic" src={AboutPic} alt=""/>
+          </div>
+          <div className="philDiv">
+            <img className="phil-story-pic" src={PhilStory} alt="philippe" />
           </div>
           <div className="ordered-about">
             <div className="ordered-story">
-            <img src={Pr} alt="newspaper"/>
               <p>
-                My name is Philippe Buteau and I'm 27 years old. I used to work in
-                Public Relations, firstly in the fashion industry, secondly in the Tech industry. My greatest strength is my motivation !
+                My name is Philippe Buteau and I'm 27 years old. I used to work
+                in Public Relations, firstly in the fashion industry, secondly
+                in the Tech industry.
               </p>
             </div>
             <div className="ordered-story">
-            <img src={QuestionMark} alt="question"/>
               <p>
                 I decided to make a shift in my career when I was in charge of
                 GitHub's Public Relations. To do so, I enrolled in Iron Hack's
@@ -35,11 +33,9 @@ export default class About extends Component {
               </p>
             </div>
             <div className="ordered-story">
-            <img src={Star} alt="star"/>
               <p>
-                My dream goal: I would like to find a job as a Front-End
-                Developer, in which I will learn new things
-                everyday.
+                My dream goal now is to find a job as a Front-End Developer, in
+                which I will learn new things everyday.
               </p>
             </div>
           </div>

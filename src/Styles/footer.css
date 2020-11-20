@@ -4,7 +4,7 @@
 .footer {
 border-top: 1px solid white;
 padding-top: 10px;
-height: 18vh;
+height: 16vh;
 background: black;
 }
 
@@ -32,9 +32,33 @@ background: black;
 }
 
 .ordered-icons img {
-  max-width: 6vw;
+  max-width: 3.5vw;
 }
 
-.heart-pic {
-  width: 2vw;
+@media screen and (max-width: 768px) {
+  .footer {
+    border-top: 1px solid white;
+    padding-top: 10px;
+    height: 14vh;
+    background: black;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    border-top: 1px solid white;
+    padding-top: 10px;
+    height: 10vh;
+    background: black;
+    }
+
+    .ordered-footer p {
+      font-family: "Press Start 2P", cursive;
+      color: white;
+      font-size: 10px;
+    }
+
+    .ordered-icons img {
+      max-width: 10vw;
+    }
 }

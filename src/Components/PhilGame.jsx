@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "../Styles/phil.css";
 import PhilCharacter from "../Images/phil.png";
-import PhilTitle from "../Images/philtypo.png";
+import WebDev from "../Images/webdev.png";
+import PhilYo from "../Images/yophil.png";
 
 export default class PhilGame extends Component {
   render() {
@@ -9,7 +10,8 @@ export default class PhilGame extends Component {
       <div>
         <div className="background-phil">
           <div className="phil-title-place">
-            <img src={PhilTitle} alt="title" className="phil-title" />
+            <img src={PhilYo} alt="title" className="phil-title" />
+            <img src={WebDev} alt="title" className="web-dev" />
           </div>
 
           <div className="ordered-content">
@@ -19,16 +21,16 @@ export default class PhilGame extends Component {
 
             <div className="skill-container">
               <h1>Skill Set</h1>
+            
+              <div class="bar good" data-skill="React"></div>
               <br />
-              <div class="bar no expert" data-skill="React"></div>
+              <div class="bar intermediate" data-skill="Javascript"></div>
               <br />
-              <div class="bar back intermediate" data-skill="Javascript"></div>
+              <div class="bar advanced" data-skill="CSS3"></div>
               <br />
-              <div class="bar front advanced" data-skill="CSS3"></div>
+              <div class="bar expert" data-skill="HTML5"></div>
               <br />
-              <div class="bar yes expert" data-skill="HTML5"></div>
-              <br />
-              <div class="bar ok expert" data-skill="NodeJS"></div>
+              <div class="bar noob" data-skill="NodeJS"></div>
               <br />
             </div>
           </div>
