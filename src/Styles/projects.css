@@ -14,8 +14,12 @@
 }
 
 .centered-pic img {
-  height: 3.5vh;
-  
+  max-height: 3.5vh;
+  margin-bottom: 4vh;
+}
+
+.project-title {
+  height: 6vh ;
 }
 
 .projects-section {
@@ -91,16 +95,21 @@
 
 .project-container h3 {
   font-family: "Press Start 2P", cursive;
+  font-size: 15px;
 }
 
 .project-container p {
   font-family: "Press Start 2P", cursive;
   width: 35vw;
+  font-size: 13px;
+  margin-top: 20px
 }
 
 .project-container h4 {
   font-family: "Press Start 2P", cursive;
   width: 30vw;
+  font-size: 14px;
+  margin-top: 20px
 }
 
 @media screen and (max-width: 1350px) {
@@ -109,9 +118,18 @@
     border: 1px solid white;
   }
 
+  .centered-pic img {
+    max-height: 3.5vh;
+    margin-bottom: 4vh;
+  }
+
+  .project-title {
+    height: 6vh ;
+  }
+
   .project-container h2 {
     font-family: "Press Start 2P", cursive;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .project-container p {
@@ -122,13 +140,13 @@
 
   .project-container h3 {
     font-family: "Press Start 2P", cursive;
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .project-container h4 {
     font-family: "Press Start 2P", cursive;
     width: 30vw;
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 
@@ -146,12 +164,16 @@
     align-content: stretch;
   }
 
+  .centered-pic img {
+    max-height: 3vh;
+    margin-bottom: 3vh;
+  }
   /* PROJECT CONTAINER ELEMENTS */
 
   .project-container {
     border-radius: 30px;
     width: 80vw;
-    height: 50vh;
+    height: 48vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -164,19 +186,20 @@
   }
 
   .project-pic {
+    display:none;
     max-height: 16vh;
     border: 1px solid white;
   }
 
   .project-container h2 {
-    width: 80vw;
+    width: 70vw;
     font-size: 13px;
     font-family: "Press Start 2P", cursive;
     text-align: center;
   }
 
   .project-container h3 {
-    font-size: 10px;
+    font-size: 13px;
     width: 80vw;
     text-align: center;
   }
@@ -186,7 +209,7 @@
     text-align: center;
     padding-right: 5vw;
     padding-left: 5vw;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .project-container h4 {
@@ -211,6 +234,17 @@ display: flex;
 
 }
 
+@media screen and (max-width: 765px) {
+  .project-title {
+    height: 5vh ;
+  }
+
+  .centered-pic img {
+    max-height: 2.5vh;
+    margin-bottom: 3vh;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .projects-section {
     width: 100%;
@@ -225,11 +259,15 @@ display: flex;
     align-content: stretch;
   }
 
+  .project-title {
+    height: 4vh ;
+  }
+
   /* PROJECT CONTAINER ELEMENTS */
 
   .project-container {
     border-radius: 0.5%;
-    width: 80vw;
+    width: 85vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -258,7 +296,7 @@ display: flex;
   .project-container h3 {
     width: 85vw;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .project-container p {
@@ -266,12 +304,12 @@ display: flex;
     text-align: center;
     padding-right: 5vw;
     padding-left: 5vw;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .project-container h4 {
     width: 80vw;
-    font-size: 13px;
+    font-size: 11px;
     text-align: center;
     padding-right: 5vw;
     padding-left: 5vw;

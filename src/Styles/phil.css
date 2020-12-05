@@ -2,7 +2,7 @@
 
 /* ANIMATED 8 BIT CITY BACKGROUND*/
 .background-phil {
-  height: 98vh;
+  height: 107vh;
   background-image: url("../Images/8-bit-pixel-art-city-2o.jpg");
   background-repeat: repeat-x;
   background-size: cover;
@@ -13,12 +13,14 @@
 /* SECTION CONTENT INCLUDING THE TITLE, CHARACTER AND THE SKILL SET */
 
 .phil-title {
-  padding-top: 5%;
-  height: 20vh;
+  padding-top: 4%;
+  min-height: 20vh;
   /* filter: brightness(105%) */
 }
 .web-dev {
-  padding-top: 1%;
+  padding-top: 2.5%;
+  padding-bottom: 3%;
+  min-height: 6vh;
 }
 
 .phil-title-place {
@@ -143,7 +145,11 @@
 }
 
 .bar.noob::before {
-  width: calc(60% - 10px);
+  width: calc(75% - 10px);
+}
+
+.bar.mongo::before {
+  width: calc(70% - 10px);
 }
 
 input {
@@ -177,14 +183,15 @@ input {
 
 @media screen and (max-width: 1400px ) {
   .phil-title {
-    padding-top: 3%;
-    height: 16vh;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    max-height: 18vh;
+    padding-bottom: 2%;
   }
 
   .web-dev {
-    padding-top: 1%;
-    height: 3vw ;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    min-height: 3vh;
   }
 
 
@@ -196,9 +203,16 @@ input {
     padding-top: 5%;
   }
 
+    .phil-title {
+    padding-top: 5%;
+    max-height: 14vh;
+    padding-bottom: 3%;
+  }
+
   .web-dev {
-    padding-top: 1%;
-    height: 4vw ;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+    min-height: 3vh;
   }
 }
 
@@ -214,15 +228,21 @@ input {
     animation: 70s para infinite linear;
   }
 
+  .web-dev {
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+    max-height: 5vh;
+  }
+
   .phil-title {
     padding-top: 3%;
-    max-height: 13vh;
+    min-height: 13vh;
     padding-bottom: 3%;
   }
 
   .skill-container {
     width: 30vh;
-    padding-top: 5%;
+    padding-top: 3%;
   }
   
   .skill-container h1 {
@@ -239,9 +259,15 @@ input {
 
 @media screen and (max-width: 400px) {
 
+  .phil-title {
+    padding-top: 5%;
+    max-height: 10vh;
+    padding-bottom: 3%;
+  }
+
   .web-dev {
     padding-top: 1%;
-    height: 5vw ;
+    max-height: 4vh ;
   }
 
   .background-phil {
@@ -253,11 +279,7 @@ input {
     animation: 70s para infinite linear;
   }
 
-  .phil-title {
-    padding-top: 3%;
-    max-height: 9vh;
-    padding-bottom: 3%;
-  }
+ 
 
   .skill-container {
     width: 20vh;

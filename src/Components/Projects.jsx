@@ -14,7 +14,9 @@ export default class Projects extends Component {
     return (
       <div id="projects">
         <div className="projects-section">
-          <img src={ProjectPic} alt="project-pic" />
+          <img className="project-title" src={ProjectPic} alt="project-pic" />
+
+
           <div className="project-container">
             <div>
               <a href="https://s3chs.github.io/Video-game-quizz/">
@@ -37,7 +39,7 @@ export default class Projects extends Component {
                 will allow you to test your knowledge about video games!
               </p>
               <div className="btn-centered">
-                <Button>Website</Button>
+              <a href="https://s3chs.github.io/Video-game-quizz/"><Button> Website </Button></a>
               </div>
             </div>
           </div>
@@ -68,7 +70,7 @@ export default class Projects extends Component {
                 with my colleague Bouziane Bey and Laura Caillaux
               </p>
               <div className="btn-centered">
-                <Button>Website</Button>
+              <a href="https://safe-space-ironhack.herokuapp.com/"><Button> Website </Button></a>
               </div>
             </div>
           </div>
@@ -97,7 +99,7 @@ export default class Projects extends Component {
                 Bey.
               </p>
               <div className="btn-centered">
-                <Button>Website</Button>
+                <a href="https://musicaih.herokuapp.com/"><Button> Website </Button></a>
               </div>
             </div>
           </div>

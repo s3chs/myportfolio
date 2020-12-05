@@ -19,7 +19,7 @@ export default class About extends Component {
               <p>
                 My name is Philippe Buteau and I'm 27 years old. I used to work
                 in Public Relations, firstly in the fashion industry, secondly
-                in the Tech industry.
+                in the tech industry.
               </p>
             </div>
             <div className="ordered-story">

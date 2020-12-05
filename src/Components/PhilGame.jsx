@@ -32,6 +32,8 @@ export default class PhilGame extends Component {
               <br />
               <div class="bar noob" data-skill="NodeJS"></div>
               <br />
+              <div class="bar mongo" data-skill="MongoDB"></div>
+              <br />
             </div>
           </div>
         </div>
