@@ -181,8 +181,8 @@ text-decoration: none;
   }
   
   .moon {
-    min-width: 25vw;
-    padding-top: 1vh;
+    max-width: 19vw;
+    padding-top: 2vh;
   }
   
   .moon-centered {
@@ -200,7 +200,7 @@ text-decoration: none;
 @media screen and (max-width: 330px) {
 
   .contact-info {
-    height: 75vh;
+    height: 90vh;
     background-color: black;
     color: white;
   }

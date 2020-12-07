@@ -473,7 +473,7 @@ input {
   }
 
   .skill-container {
-    width: 20vh;
+    width: 25vh;
     padding-top: 5%;
   }
   
@@ -492,7 +492,7 @@ input {
     background-color: #eee;
     padding: 2px;
     border-radius: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     font-size: 10px;
     color: #fff;
     font-weight: lighter;
@@ -530,7 +530,7 @@ input {
 }
 
 .bar.good::before {
-  width: calc(77% - 10px);
+  width: calc(83% - 10px);
 }
 .bar.intermediate::before {
   width: calc(75% - 10px);
