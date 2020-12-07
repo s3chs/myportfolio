@@ -16,13 +16,15 @@ export default class Contact extends Component {
             <img className="moon" src={Moon} alt="moon-pixel" />
           </div>
           <div className="contact-title">
-            <img src={ContactPic} alt="moon-pixel" />
+            <img src={ContactPic} alt="Contact" />
           </div>
+          <div className="c-information">
           <a href="mailto:philippe.buteau06@gmail.com" className="emailadd">
             philippe.buteau06@gmail.com
           </a>
           <h3 className="emailadd">06 89 68 09 31</h3>
           <h3 className="emailadd">Currently living in Paris!</h3>
+          </div>
           <div className="social-icons">
             <div>
               <a href="https://www.facebook.com/phil.buteau.3/">

@@ -48,7 +48,7 @@ text-decoration: none;
 
 .social-icons img {
   max-width: 5vw;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .moon {
@@ -66,9 +66,12 @@ text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
+  .c-information {
+    margin: 0px 10px 0px 10px;
+  }
 
   .contact-info {
-    height: 80vh;
+    height: 70vh;
     background-color: black;
     color: white;
   }
@@ -81,11 +84,16 @@ text-decoration: none;
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .emailadd a {
     color: white;
+  }
+
+  a.emailadd {
+    font-size: 12px;
+    font-weight: bold;
   }
   
   .social-icons {
@@ -104,7 +112,7 @@ text-decoration: none;
   }
   
   .moon {
-    width: 12%;
+    width: 110px;
     padding-top: 3vh;
   }
   
@@ -123,16 +131,26 @@ text-decoration: none;
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 378px) {
+
+.c-information {
+  margin: 0px 10px 0px 10px;
+}
 
   .contact-info {
-    height: 50vh;
+    height: 65vh;
     background-color: black;
     color: white;
   }
 
+  a.emailadd {
+    font-size: 9px;
+    font-weight: bold;
+
+  }
+
   .contact-title img {
-  max-height: 4vh;
+  max-height: 5vh;
   }
   
   .emailadd {
@@ -144,6 +162,7 @@ text-decoration: none;
     align-items: center;
     align-content: stretch;
     font-size: 10px;
+    margin-top: 10px;
   }
   
   .social-icons {
@@ -153,17 +172,73 @@ text-decoration: none;
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
-    margin: 0% 30% 0% 30%;
+    margin: 0% 10% 0% 10%;
   }
   
   .social-icons img {
     max-width: 10vw;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   
   .moon {
-    width: 12%;
-    padding-top: 3vh;
+    min-width: 25vw;
+    padding-top: 1vh;
+  }
+  
+  .moon-centered {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: stretch; 
+  }
+
+}
+
+
+@media screen and (max-width: 330px) {
+
+  .contact-info {
+    height: 75vh;
+    background-color: black;
+    color: white;
+  }
+
+  .contact-title img {
+  max-height: 5vh;
+  }
+  
+  .emailadd {
+    font-family: "Press Start 2P", cursive;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin: 0% 10% 0% 10%;
+  }
+  
+  .social-icons img {
+    max-width: 10vw;
+    margin-top: 40px;
+  }
+  
+  .moon {
+    min-width: 25vw;
+    padding-top: 1vh;
   }
   
   .moon-centered {

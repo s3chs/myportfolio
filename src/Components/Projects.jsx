@@ -36,10 +36,12 @@ export default class Projects extends Component {
               <h4>Technologies: HTML5, CSS3 and Javascript</h4>
               <p>
                 Retro Culture is a quizz based on old school gaming. This game
-                will allow you to test your knowledge about video games!
+                will allow you to test your knowledge about video games.
+<br/>
+                35 questions, 4 choices, one answer!
               </p>
               <div className="btn-centered">
-              <a href="https://s3chs.github.io/Video-game-quizz/"><Button> Website </Button></a>
+              <a href="https://s3chs.github.io/Video-game-quizz/"><Button className="is-rounded"> Website </Button></a>
               </div>
             </div>
           </div>
@@ -47,7 +49,7 @@ export default class Projects extends Component {
           <div className="project-container">
             <div>
               <a href="https://safe-space-ironhack.herokuapp.com/">
-                <img className="project-pic" src={SafeSpace} alt="Musica" />
+                <img className="project-pic" src={SafeSpace} alt="Safe-Space" />
               </a>
             </div>
 
@@ -56,7 +58,7 @@ export default class Projects extends Component {
                 <img
                   className="text-container"
                   src={SafeSpacePic}
-                  alt="retro-culture-pic"
+                  alt="Safe-Space"
                 />
               </div>
               <h3>Front and Back-end responsive website</h3>
@@ -70,7 +72,7 @@ export default class Projects extends Component {
                 with my colleague Bouziane Bey and Laura Caillaux
               </p>
               <div className="btn-centered">
-              <a href="https://safe-space-ironhack.herokuapp.com/"><Button> Website </Button></a>
+              <a href="https://safe-space-ironhack.herokuapp.com/"><Button className="is-rounded"> Website </Button></a>
               </div>
             </div>
           </div>
@@ -84,7 +86,7 @@ export default class Projects extends Component {
 
             <div className="text-container">
               <div className="centered-pic">
-                <img src={MusicaPic} alt="retro-culture-pic" />
+                <img src={MusicaPic} alt="Musica" />
               </div>
               <h3>Full MERN Stack Application</h3>
               <h4>
@@ -99,7 +101,7 @@ export default class Projects extends Component {
                 Bey.
               </p>
               <div className="btn-centered">
-                <a href="https://musicaih.herokuapp.com/"><Button> Website </Button></a>
+                <a href="https://musicaih.herokuapp.com/"><Button className="is-rounded"> Website </Button></a>
               </div>
             </div>
           </div>
