@@ -12,7 +12,7 @@ padding: 50px 0px 60px 0px ;
   }
 
 .contact-info {
-  height: 85vh;
+  height: 90vh;
   background-color: black;
   color: white;
 }
@@ -196,11 +196,10 @@ text-decoration: none;
 
 }
 
-
 @media screen and (max-width: 330px) {
 
   .contact-info {
-    height: 9vh;
+    height: 70vh;
     background-color: black;
     color: white;
   }
