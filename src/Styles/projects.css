@@ -263,6 +263,10 @@ display: flex;
     height: 4vh ;
   }
 
+  .project-container:hover {
+    transform: none;
+  }
+
   /* PROJECT CONTAINER ELEMENTS */
 
   .project-container {
@@ -371,6 +375,10 @@ display: flex;
     align-content: stretch;
   }
 
+  .project-container:hover {
+    transform: none;
+  }
+
   .project-title {
     height: 5vh ;
   }
@@ -477,6 +485,10 @@ display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
+  }
+
+  .project-container:hover {
+    transform: none;
   }
 
   .project-title {

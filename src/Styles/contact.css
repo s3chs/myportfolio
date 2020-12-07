@@ -200,7 +200,7 @@ text-decoration: none;
 @media screen and (max-width: 330px) {
 
   .contact-info {
-    height: 90vh;
+    height: 9vh;
     background-color: black;
     color: white;
   }
